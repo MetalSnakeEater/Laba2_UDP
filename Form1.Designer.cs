@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(196, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 13);
+            this.label3.Size = new System.Drawing.Size(107, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "IP адресполучателя";
             // 
@@ -97,7 +97,7 @@ namespace WindowsFormsApp1
             this.Name = "Form1";
             this.Text = "Отправка сообщений по протоколу UDP ";
             this.TopMost = true;
-            //this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
